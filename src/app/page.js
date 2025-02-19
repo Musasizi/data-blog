@@ -11,11 +11,11 @@ let username = "Okello Lutwa";
       <h1>DATA SCIENCE FOR AFRICA</h1>
       <h2>An initiative for 2025</h2>
       <p> Welcome to our website</p>
-
+ 
       <strong>{10 + 10 * 1000}</strong>
       <br/>
       <em>{sum}</em>
-
+    
       <p>Greetings, {username} 👋</p>
       <p>Greetings, {username} 👋</p>
       
