@@ -17,6 +17,7 @@ let username = "Okello Lutwa";
       <em>{sum}</em>
 
       <p>Greetings, {username} 👋</p>
+      <p>Greetings, {username} 👋</p>
       
     </div>
   )
