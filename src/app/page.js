@@ -1,25 +1,27 @@
+import ChapterCard from "./components/ChapterCard";
+
+
 export default function Home() {
-
-  let first_number = 923;
-  let second_number = 7
-  let  sum = first_number + second_number;
-
-let username = "Okello Lutwa";
-let username2 = "Maria";
 
   return (
     <div>
-      <h1>DATA SCIENCE FOR AFRICA</h1>
-      <h2>An initiative for 2025</h2>
-      <p> Welcome to our website</p>
- 
-      <strong>{10 + 10 * 1000}</strong>
-      <br/>
-      <em>{sum}</em>
-    <h5>This thing has been updated</h5>
-      <p>Greetings, {username} 👋</p>
-      <p>Greetings, {username2} 👋</p>
-      
+
+      <ChapterCard
+        title={"DATA SCIENCE"}
+        subtitle={"Data the new oil."}
+        content={"Join our Data Science Club to explore the fascinating world of data analysis, machine learning, and artificial intelligence. Whether you're a beginner or an expert, our club offers resources, workshops, and a community to help you grow your skills and knowledge."}
+      />
+      <ChapterCard
+        title={"CYBER SECURITY"}
+        subtitle={"Guardians of the Byte."}
+        content={"Join our Cyber Security Club to delve into the critical field of protecting digital information. Our club provides insights into the latest security practices, ethical hacking, and defense strategies. Whether you're new to the field or a seasoned professional, we offer workshops, resources, and a community to enhance your skills and knowledge."}
+      />
+      <ChapterCard
+        title={"ROBOTICS"}
+        subtitle={"We make nice bots."}
+        content={"Join our Robotics Club to explore the exciting world of robotics and automation. Our club offers hands-on projects, workshops, and resources to help you build and program robots. Whether you're a beginner or an experienced roboticist, you'll find a community of like-minded enthusiasts to collaborate and grow with."}
+      />
+    
     </div>
   )
 }
