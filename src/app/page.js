@@ -1,5 +1,5 @@
 import ChapterCard from "./components/ChapterCard";
-
+import TitleCard from "./components/TitleCard";
 
 export default function Home() {
 
@@ -24,11 +24,14 @@ export default function Home() {
 
   return (
     <div style={{ margin: "50px" }}>
-      <div style={{ textAlign: "center" }}>
-        <h1>CSE ASSOCIATION</h1>
-        <h2>Department of Computing and Technology</h2>
-        <h4>ASSOCIATION CHAPTERS</h4>
-      </div>
+      <TitleCard
+        associationName={"CSE ASSOCIATION"}
+        departmentName={"Department of Computing and Technology"}
+      />
+      <TitleCard
+        associationName={"LAW SOCIETY"}
+        departmentName={"Department of Law"}
+      />
       {associationChapters.map(function (chapter, index) {
         return (
           <ChapterCard
