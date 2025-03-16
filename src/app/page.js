@@ -1,7 +1,6 @@
 import ChapterCard from "./components/ChapterCard";
 import TitleCard from "./components/TitleCard";
 
-
 export default function Home() {
 
   let associationChapters = [
